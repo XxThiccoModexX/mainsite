@@ -8,7 +8,10 @@ body {
 h1 {
   font-family: "Impact", Times, serif;
   color: #ffffff;
-  text-shadow: 0px 0px 10px #000000;
+  -webkit-text-stroke-width: 2px;
+  font-size: 72px;
+  -webkit-text-stroke-color: black;
+  text-align: center;
 }
 p {
   font-family: "Verdana", sans-serif;
