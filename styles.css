@@ -1,0 +1,30 @@
+.textarea {
+  resize: none;
+}
+.body {
+  background: lightblue
+    url("ambush.png")
+    no-repeat fixed center;
+}
+
+.h1 {
+  font-family: "Impact", Times, serif;
+  color: #ffffff;
+  text-shadow: 0px 0px 10px #000000;
+}
+.p {
+  font-family: "Verdana", sans-serif;
+  color: #ffffff;
+}
+.button {
+  border-style: solid;
+  border: 5px;
+  color: red;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
