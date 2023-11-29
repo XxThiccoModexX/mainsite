@@ -5,19 +5,30 @@ body {
   background-image: url("ambush.png");
 }
 
+.header {
+  padding: 60px;
+  text-align: center;
+  background: url("sanae.png");
+  color: white;
+  font-size: 30px;
+}
+
 h1 {
-  font-family: "Impact", Times, serif;
+  font-family: "Minecraft", Times, serif;
   color: #ffffff;
-  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 1px;
   font-size: 72px;
   -webkit-text-stroke-color: black;
   text-align: center;
 }
 p {
-  font-family: "Verdana", sans-serif;
   color: #ffffff;
+  text-decoration: none;
+  font-family: "Minecraft";
+  font-size: 24px;
 }
 button {
+  font-family: "Minecraft";
   border-style: solid;
   border: 5px;
   color: red;
@@ -26,6 +37,16 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 16px 16px;
   cursor: pointer;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Minecraft";
+  font-size: 24px;
 }

@@ -2,45 +2,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>gaming</title>
+<title>The World Machine</title>
 <link rel="stylesheet" href="styles.css">
-</head>
 <script>
-var tnum1 = 0;
-var tnum2 = 0;
-var tstring = "furry feet free";
-
-function eckhart() {
-  if (tnum2 < tstring.length) {
-    tnum2++;
-  }
-  window.setTimeout(twait, 1);
-}
-
-function twait() {
-  document.getElementById("fakename").value = tstring.substring(tnum1, tnum2);
-}
-const audio = new Audio(
-  "funi.mp3"
-);
-const buttons = document.querySelectorAll("button");
-
-buttons.forEach((button) => {
-  button.addEventListener("click", () => {
-    audio.play();
-  });
-});
-
+var snd = new Audio("audio/oneshot.mp3");
 </script>
+</head>
 <body>
-<h1>Welcome to my website, loser</h1>
-<p>Welcome.</p>
-<button type="button">Hu Tao Suki Da!</button>
-<img src="hu tao.png" alt="my love" title="photo of my one and only love" style="width:203px;height:269px;">
-<p>did you know you can get free fortnite vbucks online? search up furry feet free to learn more</p>
-<textarea rows="1" style="width:70%;" id="fakename" onkeyup="if(this.value.length > 7) document.getElementById('start_button').disabled = false; else document.getElementById('start_button').disabled = true;" onkeydown="eckhart()" wrap="hard">
-</textarea>
-<a href="https://www.google.com/search?q=furry+feet+free&client=opera-gx&hs=FZZ&sxsrf=ALiCzsbFpW4seQ0UlaGcUaCSSRVAgvgfYA:1671276933879&source=lnms&tbm=isch&sa=X&ved=2ahUKEwitgdzfx4D8AhVFbd4KHQq8CjYQ_AUoAXoECAIQAw&biw=1920&bih=939&dpr=1">Search</a>
+
+<div class="header">
+  <h1> </h1>
+  <p>          </p><br>
+  <p>          </p><br>
+  <p>          </p><br>
+  <p>          </p>
+</div>
+
+ <a href="https://www.roblox.com/home" align:center><p style="text-align:center">Roblox</p></a>
+
+
+<button onclick="myFunction()"><p1 style="text-align:center" color="black">Remember...</p1></button>
+
+<script>
+
+function myFunction() {
+  alert("You only have one shot, Thicco.");	
+  snd.play();
+}
+</script>
+<br>
+<img src="cow.gif" alt="bruh">
+<img src="cow.gif" alt="bruh">
+<img src="cow.gif" alt="bruh">
+<img src="cow.gif" alt="bruh">
+<img src="cow.gif" alt="bruh">
+<img src="cow.gif" alt="bruh">
 <body>
 </html>
-
