@@ -28,20 +28,18 @@ p {
   font-size: 24px;
 }
 button {
+  color: #157D95;
   font-family: "Minecraft";
   border-style: solid;
-  border: 0px;
-  color: red;
-  padding: 0px 0px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-
+  font-size: 0px;
   cursor: default;
   position: fixed;
-  bottom: 0;
-  right: 0;
+  bottom: -65px;
+  right: -100px;
+  
 }
 }
 a {
