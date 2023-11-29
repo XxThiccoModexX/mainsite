@@ -4,6 +4,7 @@
 <head>
 <title>The World Machine</title>
 <link rel="stylesheet" href="styles.css">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
 <script>
 var snd = new Audio("audio/oneshot.mp3");
 </script>
@@ -18,16 +19,24 @@ var snd = new Audio("audio/oneshot.mp3");
   <p>          </p>
 </div>
 
- <a href="https://www.roblox.com/home" align:center><p style="text-align:center">Roblox</p></a>
+<a href="https://www.roblox.com/home" align:center><p style="text-align:center">Roblox</p></a>
+<a href="https://www.youtube.com" align:center><p style="text-align:center">Youtube</p></a>
+<a href="https://www.reddit.com" align:center><p style="text-align:center">Reddit</p></a>
 
-
-<button onclick="myFunction()"><p1 style="text-align:center" color="black">Remember...</p1></button>
+<div class="wrapper">
+	<button onclick="myFunction()" id="bruhton"><img src="message.png"></img></button>
+</div>
 
 <script>
-
+var x = document.getElementById("bruhton");
 function myFunction() {
   alert("You only have one shot, Thicco.");	
   snd.play();
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
 }
 </script>
 <br>
