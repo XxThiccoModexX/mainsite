@@ -4,8 +4,10 @@ let reddit = document.getElementById('reddit')
 let fumo = document.getElementById('fumo')
 let misty = document.getElementById('misty')
 let onepiece = document.getElementById('onepiece')
-
+let mainlink = document.getElementById('mainlink')
 var snd = new Audio("audio/oneshot.mp3");
+mainlink.onClick = function() {
+snd.pause();}
 //roblox.onmouseover = function() {roblox.style.transform = "rotate(20deg)"};
 //roblox.onmouseout = function() {mouseLeave(roblox,"roblox","https://www.roblox.com/home","this is broken atm")};
 //youtube.onmouseover = function() {mouseEnter(youtube,"youtube","https://www.youtube.com","all fun and games until you get to a minecraft smp then its sad")};
