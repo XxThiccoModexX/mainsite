@@ -6,7 +6,7 @@ body {
 }
 
 .header {
-  padding: 60px;
+  padding: 0px;
   text-align: center;
   background: url("sanae.png");
   color: white;
@@ -67,12 +67,22 @@ a {
 .mainlink:hover {
   bottom: 0;
   left: 0;
-  color: #FFF5C6;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  color: #FFF2Fc;
   animation-name: oh;
-  animation-duration: 1s;
-  
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  text-shadow: 2px 2px 5px #FFF2Fc;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 @keyframes oh {
-  from {background-color: red;}
-  to {background-color: yellow;}
+  0% {transform: translate(0%,0%); animation-timing-function: ease-out;}
+  25% {transform: translate(1%,0%); animation-timing-function: ease-in;}
+  50% {transform: translate(0%,0%); animation-timing-function: ease-out;}
+  75% {transform: translate(-1%,0%); animation-timing-function: ease-in;}
+  100% {transform: translate(0%,0%); animation-timing-function: ease-out;}
 }
