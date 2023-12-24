@@ -3,6 +3,7 @@ textarea {
 }
 body {
   background-image: url("backgrounds/10hours.png");
+  overflow: hidden;
 }
 
 .header {

@@ -4,10 +4,18 @@ let reddit = document.getElementById('reddit')
 let fumo = document.getElementById('fumo')
 let misty = document.getElementById('misty')
 let onepiece = document.getElementById('onepiece')
+let cobalt = document.getElementById('cobalt')
 let mainlink = document.getElementById('mainlink')
-var snd = new Audio("audio/oneshot.mp3");
+//var snd = new Audio("audio/oneshot.mp3");
+var sndclk = new Audio("audio/click.mp3");
+
+roblox.onclick = function() {sndclk.play()};
+youtube.onclick = function() {sndclk.play()};
+
 //roblox.onmouseover = function() {roblox.style.transform = "rotate(20deg)"};
 //roblox.onmouseout = function() {mouseLeave(roblox,"roblox","https://www.roblox.com/home","this is broken atm")};
+
+
 //youtube.onmouseover = function() {mouseEnter(youtube,"youtube","https://www.youtube.com","all fun and games until you get to a minecraft smp then its sad")};
 //youtube.onmouseout = function() {mouseLeave2()};
 //reddit.onmouseover = function() {mouseEnter(reddit,"reddit","https://www.reddit.com","RISE UP REDDIT NATION")};
