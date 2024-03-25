@@ -1,3 +1,5 @@
+
+
 let dalink = document.getElementById('selecticon')
 
 var cli = new Audio("audio/ok.wav");
@@ -6,8 +8,11 @@ let bgrng = Math.floor(Math.random() * 2);
 function selectbackground() {
 	document.body.style.backgroundImage = 'url(' + images[Math.floor(Math.random() * images.length)] + ')';
 }
+function touhou() {
+window.onload = function(){ 	
+}
 dalink.onclick = function() {cli.play();}
-
+};
 
 
 
