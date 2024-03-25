@@ -2,16 +2,8 @@ textarea {
   resize: none;
 }
 body {
-  background-image: url("backgrounds/10hours.png");
+  background-color: #C10A0A;
   overflow: hidden;
-}
-
-.header {
-  padding: 0px;
-  text-align: center;
-  background: url("sanae.png");
-  color: white;
-  font-size: 30px;
 }
 
 .cow {
@@ -25,7 +17,7 @@ footer {
   bottom: 00px;
 }
 h1 {
-  font-family: "Minecraft", Times, serif;
+  font-family: mainFont, Times, serif;
   color: #ffffff;
   -webkit-text-stroke-width: 1px;
   font-size: 72px;
@@ -35,28 +27,15 @@ h1 {
 p {
   color: #ffffff;
   text-decoration: none;
-  font-family: "Minecraft";
+  font-family: mainFont;
   font-size: 24px;
 }
-button {
-  color: #157D95;
-  font-family: "Minecraft";
-  border-style: solid;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 0px;
-  cursor: default;
-  position: fixed;
-  bottom: -65px;
-  right: -100px;
-  
-}
 
+@font-face { font-family: mainFont; src: url("Gewtymol.ttf"); } 
 a {
   color: #ffffff;
   text-decoration: underline;
-  font-family: "Minecraft";
+  font-family: mainFont;
   font-size: 24px;
 }
 
@@ -64,26 +43,121 @@ a {
 .wrapper {
     text-align: center;
 }
-
-.mainlink:hover {
-  bottom: 0;
-  left: 0;
-  color: #FFF2Fc;
-  animation-name: oh;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  text-shadow: 2px 2px 5px #FFF2Fc;
+.imgContainer {
+	width:200px;
+	height: 70px;
+	position:absolute;
+	left: 0;
+	right:0;
+	margin:left;
 }
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+/*.biggerthing:hover {
+  transform: scale(1.1);
+}*/
+/* god i wish there was a better way to do this */
+.centerroblox {
+  margin: 0;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
-@keyframes oh {
-  0% {transform: translate(0%,0%); animation-timing-function: ease-out;}
-  25% {transform: translate(1%,0%); animation-timing-function: ease-in;}
-  50% {transform: translate(0%,0%); animation-timing-function: ease-out;}
-  75% {transform: translate(-1%,0%); animation-timing-function: ease-in;}
-  100% {transform: translate(0%,0%); animation-timing-function: ease-out;}
+.jumpscareroblox {
+  margin: 0;
+  position: absolute;
+  z-index: 999;
+  mix-blend-mode: multiply;
+;
+  top: 15%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+.jumpscareroblox:hover {
+  opacity: 1;
+  animation-name: stretch;
+  animation-duration: 2s;
+}
+@stretch {
+	from {scale: 3 1;}
+	to {scale: 1 1;}
+}
+.centeryoutube {
+  margin: 0;
+  position: absolute;
+  top: 23%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+.jumpscareyoutube {
+  margin: 0;
+  position: absolute;
+  z-index: 999;
+  mix-blend-mode: multiply;
+  top: 23%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+.jumpscareyoutube:hover {
+  opacity: 1;
+  animation-name: stretch;
+  animation-duration: 2s;
+}
+.centersteam {
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.jumpscaresteam {
+  margin: 0;
+  position: absolute;
+  z-index: 999;
+  mix-blend-mode: multiply;
+  top: 30%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+.jumpscaresteam:hover {
+  opacity: 1;
+  animation-name: stretch;
+  animation-duration: 2s;
+}
+.alsobg {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: -5;
+	pointer-events: none;
+}
+.alsobgright {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	z-index: -6;
+	pointer-events: none;
+}
+.overlay {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: -999;
+	pointer-events: none;
 }
