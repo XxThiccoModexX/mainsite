@@ -15,12 +15,13 @@ body {
   to {background-position: 600px 338px; ;}
 }
 </style>
+</head>
+<body>
+<div id='unmute'><p>click to unmute lol</p></div>
 <script>
 var cli = new Audio("audio/lawl.wav");
 cli.loop = true;
-window.onclick = function() {cli.play();}
+unmute = document.getElementById("unmute")
+window.onclick = function() {cli.play(); unmute.remove();}
 </script>
-</head>
-<body>
-<p>LAWL</p>
 </html>
