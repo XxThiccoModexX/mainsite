@@ -4,6 +4,8 @@ textarea {
 body {
   background-color: #C10A0A;
   overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .cow {
@@ -51,47 +53,8 @@ a {
 	right:0;
 	margin:left;
 }
-/*.biggerthing:hover {
-  transform: scale(1.1);
-}*/
-/* god i wish there was a better way to do this */
-.centerroblox {
-  margin: 0;
-  position: absolute;
-  top: 15%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-.jumpscareroblox {
-  margin: 0;
-  position: absolute;
-  z-index: 999;
-  mix-blend-mode: multiply;
-;
-  top: 15%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  opacity: 0;
-}
-.jumpscareroblox:hover {
-  opacity: 1;
-  animation-name: stretch;
-  animation-duration: 2s;
-}
-@stretch {
-	from {scale: 3 1;}
-	to {scale: 1 1;}
-}
-.centeryoutube {
-  margin: 0;
-  position: absolute;
-  top: 23%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
+.realad {
+
 button {
     background-color: transparent;
     background-repeat: no-repeat;
@@ -99,65 +62,4 @@ button {
     cursor: pointer;
     overflow: hidden;
     outline: none;
-}
-.jumpscareyoutube {
-  margin: 0;
-  position: absolute;
-  z-index: 999;
-  mix-blend-mode: multiply;
-  top: 23%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  opacity: 0;
-}
-.jumpscareyoutube:hover {
-  opacity: 1;
-  animation-name: stretch;
-  animation-duration: 2s;
-}
-.centersteam {
-  margin: 0;
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-.jumpscaresteam {
-  margin: 0;
-  position: absolute;
-  z-index: 999;
-  mix-blend-mode: multiply;
-  top: 30%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  opacity: 0;
-}
-.jumpscaresteam:hover {
-  opacity: 1;
-  animation-name: stretch;
-  animation-duration: 2s;
-}
-.alsobg {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	z-index: -5;
-	pointer-events: none;
-}
-.alsobgright {
-	position: fixed;
-	top: 0px;
-	right: 0px;
-	z-index: -6;
-	pointer-events: none;
-}
-.overlay {
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	z-index: -999;
-	pointer-events: none;
 }

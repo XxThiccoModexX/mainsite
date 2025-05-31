@@ -1,19 +1,15 @@
 
-
-let dalink = document.getElementById('selecticon')
-
 var cli = new Audio("audio/ok.wav");
-var images = ["backgrounds/tenhours.png", "backgrounds/ambush.png", "backgrounds/engineer.png"]; 
+
+var images = ["backgrounds/tenhours.png", "backgrounds/ambush.png", "backgrounds/engineer.png", "backgrounds/okp."]; 
 let bgrng = Math.floor(Math.random() * 2);
 function selectbackground() {
 	document.body.style.backgroundImage = 'url(' + images[Math.floor(Math.random() * images.length)] + ')';
 }
 function touhou() {
-window.onload = function(){ 	
-}
-dalink.onclick = function() {cli.play();}
+window.onload = function(){ 
 };
-
+};
 
 
 
