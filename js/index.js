@@ -1,22 +1,17 @@
 
 var cli = new Audio("audio/ok.wav");
 
-var images = ["backgrounds/tenhours.png", "backgrounds/ambush.png", "backgrounds/engineer.png", "backgrounds/okp."]; 
-let bgrng = Math.floor(Math.random() * 2);
+
+var images = ["backgrounds/tenhours.png", "backgrounds/ambush.png", "backgrounds/engineer.png", "backgrounds/okp.gif", "backgrounds/mcpk.png"]; 
 function selectbackground() {
 	document.body.style.backgroundImage = 'url(' + images[Math.floor(Math.random() * images.length)] + ')';
 }
-function touhou() {
-window.onload = function(){ 
-};
-};
-
-
-
-
-
-
-
+/* 
+var quotes = ["meow","FUCK!!!"]
+function selectquote() {
+	document.body.style.backgroundImage = 'url(' + quotes[Math.floor(Math.random() * quote.length)] + ')';
+}
+ */
 //let youtube = document.getElementById('youtube')
 //let reddit = document.getElementById('reddit')
 //let fumo = document.getElementById('fumo')
